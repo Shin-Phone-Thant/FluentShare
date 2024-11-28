@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;                                                        
+}
+body {
+    background-color: rgb(177, 238, 255);
+    font-family: Palatino Linotype;
+}
+.flex-container{
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: center;
+     background-color: rgb(255, 255, 255);
+     width: 90%;
+     margin: auto;
+     padding-right: 20px;
+    border-radius: 10px;
+ }
+.flex-container img{
+    width: 600px;
+    height: 500px;
+ }
+.flex-container div{
+    flex-basis: 40%;
+    text-align: left;
+ }
+ ol {
+    font-size: large;
+ }
+ div {
+    padding-left: 20px;
+    padding-right: 20px;
+ }

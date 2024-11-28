@@ -1,0 +1,18 @@
+fieldset {
+    border: 0px;
+    background-color: rgb(184, 217, 246)
+
+}
+td {
+    width: 50%;
+}
+table {
+    text-align: center;
+}
+p {
+    text-align: left;
+    font-size: larger;
+}
+h4 {
+    text-align: left;
+}

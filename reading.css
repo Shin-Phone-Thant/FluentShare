@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(232, 244, 255);
+}
+table {
+    text-align: left;
+}
+p {
+    font-size: large;
+}
+.nevigation-bar button{
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 150px;
+    height: 30px;
+    background-color: rgba(71, 120, 252, 0.458);
+    
+}
+.nevigation-bar {
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+    padding: 0px 400px;
+}
+h1 {
+background-color: rgb(164, 197, 243);
+font-family: 'Times New Roman', Times, serif;
+margin: auto;
+text-align: center;
+width: 100%;
+padding: 7px;
+}
+h2 {
+    text-align: center;
+}
+td {
+    padding: 20px;
+}
+hr {
+    border-color: black;
+}
+.tips {
+    text-align: center;
+}
+dl {
+    text-align: left;
+    font-size: large;
+}
+.recommendations {
+    background-color: rgb(164, 197, 243);
+    padding: 20px;
+}

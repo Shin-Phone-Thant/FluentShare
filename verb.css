@@ -1,0 +1,55 @@
+.table1, .table1 th, .table1 td{
+    border: solid black;
+    font-size: large;
+    border-collapse: collapse;
+    padding: 15px;
+    background-color: azure;
+}
+.table1 {
+    width: 80%;
+}
+body {
+    background-color: rgb(232, 244, 255);
+}
+h2 {
+    text-align: center;
+}
+h3 {
+    font-size: large;
+}
+.table2 {
+    border: none;
+    margin: auto;
+}
+.table2 td {
+    padding-left: 10px;
+}
+h1 {
+    background-color: rgb(164, 197, 243);
+    font-family: 'Times New Roman', Times, serif;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    padding: 7px;
+}
+.nevigation-bar {
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+    padding: 0px 400px;
+}
+.nevigation-bar button{
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 150px;
+    height: 30px;
+    background-color: rgba(71, 120, 252, 0.458);
+}
+form {
+    font-size: large;
+}
